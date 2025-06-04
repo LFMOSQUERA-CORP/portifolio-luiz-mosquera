@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luiz Fernando Mosquera | Portfólio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #000; color: #fff; font-family: Arial, sans-serif; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 20px; border-bottom: 1px solid #333; }
+    header h1 { font-size: 1.8rem; }
+    nav a { color: #fff; margin-left: 20px; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #0f0; }
+    .container { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    section { margin-bottom: 60px; }
+    h2 { border-bottom: 2px solid #0f0; padding-bottom: 10px; margin-bottom: 20px; }
+    .projeto, .experiencia { background: #111; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+    footer { text-align: center; padding: 20px; border-top: 1px solid #333; }
+    .btn-wpp { display: inline-block; background: #0f0; color: #000; padding: 10px 20px; border-radius: 30px; text-decoration: none; font-weight: bold; margin-top: 20px; }
+    .btn-wpp:hover { background: #0c0; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Luiz Fernando Mosquera</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#experiencia">Experiência</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="home">
+      <h2>Bem-vindo</h2>
+      <p>Sou Luiz Fernando Mosquera, profissional de Tecnologia da Informação com mais de 10 anos de experiência em Infraestrutura, Gestão de Serviços, NOC, SOC e Field Service.</p>
+      <a class="btn-wpp" href="https://wa.me/seunumerowpp" target="_blank">Fale comigo no WhatsApp</a>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="projeto">
+        <h3>Migração da Nova Sede DETRAN/DF</h3>
+        <p>Gerenciamento completo da infraestrutura, firewall, redes e atendimento na nova sede do DETRAN/DF.</p>
+      </div>
+      <div class="projeto">
+        <h3>Implantação do SOC no DETRAN/DF</h3>
+        <p>Coordenação da equipe de Segurança da Informação, implantação de monitoramento, processos e resposta a incidentes.</p>
+      </div>
+      <div class="projeto">
+        <h3>Modernização do NOC</h3>
+        <p>Implementação de ferramentas como Zabbix e Grafana para monitoramento proativo 24x7.</p>
+      </div>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiência</h2>
+      <div class="experiencia">
+        <h3>Gerente de Infraestrutura - SONDA</h3>
+        <p>Atuação atual na gestão do contrato DETRAN/DF com responsabilidade sobre NOC, SOC e Field Service.</p>
+      </div>
+      <div class="experiencia">
+        <h3>Supervisor de Field Service - SONDA</h3>
+        <p>Gestão de equipes presenciais em todas as unidades do DETRAN/DF.</p>
+      </div>
+      <div class="experiencia">
+        <h3>Supervisor de Operações - TIVIT / BS / CTIS</h3>
+        <p>Gestão de equipes de Service Desk e atendimento 24h para contratos como CAIXA e DETRAN.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Luiz Fernando Mosquera | Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
